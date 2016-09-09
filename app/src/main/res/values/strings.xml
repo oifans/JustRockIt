@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">JustRockIt</string>
+
+    <string name="index">首页</string>
+    <string name="concert">演唱会</string>
+    <string name="my">我的</string>
 </resources>
