@@ -4,4 +4,6 @@
     <string name="index">首页</string>
     <string name="concert">演唱会</string>
     <string name="my">我的</string>
+
+    <string name="data_acquisition_error">数据获取错误</string>
 </resources>

@@ -14,6 +14,5 @@ public class AppContext extends Application {
     public void onCreate() {
         super.onCreate();
         Bmob.initialize(this,Constants.BmobAppId);
-
     }
 }

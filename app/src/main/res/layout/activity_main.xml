@@ -8,6 +8,7 @@
     tools:context="com.weibo.lbzone.justrockit.ui.main.MainActivity">
 
     <LinearLayout
+        android:id="@+id/ll_tab"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
@@ -75,4 +76,12 @@
                 android:text="@string/my" />
         </LinearLayout>
     </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ll_tab"
+        >
+    </FrameLayout>
 </RelativeLayout>
